@@ -1,3 +1,12 @@
-# O-proggett
+#include <stdio.h>
+#include <stdlib.h>
 
-Progetto del gruppo de "I Bocciati"
+int main (void)
+
+{
+
+puts("Hello World");
+
+return 0;
+
+}
