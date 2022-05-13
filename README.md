@@ -22,13 +22,28 @@ while (i<1)
             {
             printf("Il regno e' Plantae\n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli un phylum tra: \n 1) Angiosperme \n 2) Gimnosperme \n");
+                scanf("%s", Phylum);
+                if (strcmp(Phylum, "Angiosperme")==0)
+                {
+                printf("Il phylum e' Angiosperme\n");
+                i++;
+                }
+                else if (strcmp(Phylum, "Gimnosperme")==0)
+                {
+                printf("Il phylum e' Gimnosperme\n");
+                i++;
+                }
+                }
             }
             else if (strcmp(Regno, "Animalia")==0)
             {
             printf("Il regno e' Animalia\n");
             i++;
             while (i<3)
-            {
+                {
                 printf("Scegli un phylum tra: \n 1) Chordata \n 2) Arthropoda \n");
                 scanf("%s", Phylum);
                 if (strcmp(Phylum, "Chordata")==0)
