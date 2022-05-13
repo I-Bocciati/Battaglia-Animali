@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+
+//Ho aggiunto i doppi "\n" dentro i "printf" per una migliore visualizzazione (Giosus)
+
 int main ()
 {
-char Regno [10];
+char Regno [30];
 char Phylum [30];
 char Classe [30];
 char Ordine [30];
@@ -17,7 +20,7 @@ while (i<1)
         scanf("%s", Regno);
         if (strcmp(Regno, "Plantae")==0)
         {
-        printf("Il regno e' Plantae\n");
+        printf("Il regno e' Plantae\n\n");
         i++;
         while (i<2)
             {
@@ -25,7 +28,7 @@ while (i<1)
             scanf("%s", Phylum);
             if (strcmp(Phylum, "Magnoliophyta")==0)
             {
-            printf("Il phylum e' Magnoliophyta\n");
+            printf("Il phylum e' Magnoliophyta\n\n");
             i++;
             while (i<3)
                 {
@@ -33,19 +36,19 @@ while (i<1)
                 scanf("%s", Classe);
                 if (strcmp(Classe, "Magnoliopsida")==0)
                 {
-                printf("La Classe e' Magnoliopsida\n");
+                printf("La Classe e' Magnoliopsida\n\n");
                 i++;
                 }
                 else if (strcmp(Classe, "Liliopsida")==0)
                 {
-                printf("La Classe e' Liliopsida\n");
+                printf("La Classe e' Liliopsida\n\n");
                 i++;
                 }
                 }
             }
             else if (strcmp(Phylum, "Rhodophyta")==0)
             {
-            printf("Il Phylum e' Rhodophyta\n");
+            printf("Il Phylum e' Rhodophyta\n\n");
             i++;
             while (i<3)
                 {
@@ -53,12 +56,12 @@ while (i<1)
                 scanf("%s", Classe);
                 if (strcmp(Classe, "Floridaphyceae")==0)
                 {
-                printf("La Classe e' Floridaphyceae\n");
+                printf("La Classe e' Floridaphyceae\n\n");
                 i++;
                 }
                 else if (strcmp(Classe, "Bangiophyceae")==0)
                 {
-                printf("La Classe e' Bangiophyceae\n");
+                printf("La Classe e' Bangiophyceae\n\n");
                 i++;
                 }
                 }
@@ -67,7 +70,7 @@ while (i<1)
         }
         else if (strcmp(Regno, "Animalia")==0)
         {
-        printf("Il regno e' Animalia\n");
+        printf("Il regno e' Animalia\n\n");
         i++;
         while (i<2)
             {
@@ -75,7 +78,7 @@ while (i<1)
             scanf("%s", Phylum);
             if (strcmp(Phylum, "Chordata")==0)
             {
-            printf("Il phylum e' Chordata\n");
+            printf("Il phylum e' Chordata\n\n");
             i++;
             while (i<3)
                 {
@@ -83,19 +86,19 @@ while (i<1)
                 scanf("%s", Classe);
                 if (strcmp(Classe, "Aves")==0)
                 {
-                printf("La Classe e' Aves\n");
+                printf("La Classe e' Aves \n\n");
                 i++;
                 }
                 else if (strcmp(Classe, "Mammalia")==0)
                 {
-                printf("La Classe e' Mammalia \n");
+                printf("La Classe e' Mammalia \n\n");
                 i++;
                 }
                 }
             }
             else if (strcmp(Phylum, "Arthropoda")==0)
             {
-            printf("Il phylum e' Arthropoda \n");
+            printf("Il phylum e' Arthropoda \n\n");
             i++;
             while (i<3)
                 {
@@ -103,12 +106,12 @@ while (i<1)
                 scanf("%s", Classe);
                 if (strcmp(Classe, "Malacostraca")==0)
                 {
-                printf("La Classe e' Malacostraca\n");
+                printf("La Classe e' Malacostraca \n\n");
                 i++;
                 }
                 else if (strcmp(Classe, "Insecta")==0)
                 {
-                printf("La Classe e' Insecta \n");
+                printf("La Classe e' Insecta \n\n");
                 i++;
                 }
                 }
