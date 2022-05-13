@@ -5,6 +5,10 @@ int main ()
 char Regno [10];
 char Phylum [30];
 char Classe [30];
+char Ordine [30];
+char Famiglia [30];
+char Genere [30];
+char Specie [30];
 int i =0;
 
 while (i<1)
