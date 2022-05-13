@@ -4,6 +4,7 @@ int main ()
 {
 char Regno [10];
 char Phylum [30];
+char Classe [30];
 int i =0;
 
 while (i<1)
@@ -22,11 +23,21 @@ while (i<1)
             {
             printf("Il phylum e' Angiosperme\n");
             i++;
-            }
-            else if (strcmp(Phylum, "Gimnosperme")==0)
-            {
-            printf("Il phylum e' Gimnosperme\n");
-            i++;
+            while (i<3)
+                {
+                printf("Scegli una classe tra: \n 1) Dicotiledoni \n 2) Monocotiledoni \n");
+                scanf("%s", Classe);
+                if (strcmp(Classe, "Dicotiledoni")==0)
+                {
+                printf("Il phylum e' Dicotiledoni\n");
+                i++;
+                }
+                else if (strcmp(Classe, "Monocotiledoni")==0)
+                {
+                printf("Il phylum e' Monocotiledoni\n");
+                i++;
+                }
+                }
             }
             }
         }
