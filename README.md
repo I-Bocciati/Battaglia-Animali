@@ -21,7 +21,7 @@ while (i<1)
         i++;
         while (i<2)
             {
-            printf("Scegli un phylum tra: \n 1) Magnoliophyta \n 2) Viridiplantae \n");
+            printf("Scegli un phylum tra: \n 1) Magnoliophyta \n 2) Rhodophyta \n");
             scanf("%s", Phylum);
             if (strcmp(Phylum, "Magnoliophyta")==0)
             {
@@ -33,20 +33,35 @@ while (i<1)
                 scanf("%s", Phylum);
                 if (strcmp(Phylum, "Magnoliopsida")==0)
                 {
-                printf("Il phylum e' Magnoliopsida\n");
+                printf("La Classe e' Magnoliopsida\n");
                 i++;
                 }
                 else if (strcmp(Phylum, "Liliopsida")==0)
                 {
-                printf("Il Phylum e' Liliopsida\n");
+                printf("La Classe e' Liliopsida\n");
                 i++;
                 }
                 }
             }
-            else if (strcmp(Phylum, "Viridiplantae")==0)
+            else if (strcmp(Phylum, "Rhodophyta")==0)
             {
-            printf("Il Phylum e' Viridiplantae\n");
+            printf("Il Phylum e' Rhodophyta\n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli una classe tra: \n 1)Floridaphyceae \n 2)Bangiophyceae  \n");
+                scanf("%s", Phylum);
+                if (strcmp(Phylum, "Floridaphyceae")==0)
+                {
+                printf("La Classe e' Floridaphyceae\n");
+                i++;
+                }
+                else if (strcmp(Phylum, "Bangiophyceae")==0)
+                {
+                printf("La Classe e' Bangiophyceae\n");
+                i++;
+                }
+                }
             }
             }
         }
