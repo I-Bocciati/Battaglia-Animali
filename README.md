@@ -17,11 +17,11 @@ while (i<1)
         i++;
         while (i<2)
             {
-            printf("Scegli un phylum tra: \n 1) Chlorophyta \n 2) Viridiplantae \n");
+            printf("Scegli un phylum tra: \n 1) Magnoliophyta \n 2) Viridiplantae \n");
             scanf("%s", Phylum);
-            if (strcmp(Phylum, "Chlorophyta")==0)
+            if (strcmp(Phylum, "Magnoliophyta")==0)
             {
-            printf("Il phylum e' Chlorophyta\n");
+            printf("Il phylum e' Magnoliophyta\n");
             i++;
             }
             else if (strcmp(Phylum, "Viridiplantae")==0)
