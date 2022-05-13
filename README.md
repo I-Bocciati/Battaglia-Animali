@@ -17,27 +17,17 @@ while (i<1)
         i++;
         while (i<2)
             {
-            printf("Scegli un phylum tra: \n 1) Angiosperme \n 2) Gimnosperme \n");
+            printf("Scegli un phylum tra: \n 1) Chlorophyta \n 2) Viridiplantae \n");
             scanf("%s", Phylum);
-            if (strcmp(Phylum, "Angiosperme")==0)
+            if (strcmp(Phylum, "Chlorophyta")==0)
             {
-            printf("Il phylum e' Angiosperme\n");
+            printf("Il phylum e' Chlorophyta\n");
             i++;
-            while (i<3)
-                {
-                printf("Scegli una classe tra: \n 1) Dicotiledoni \n 2) Monocotiledoni \n");
-                scanf("%s", Classe);
-                if (strcmp(Classe, "Dicotiledoni")==0)
-                {
-                printf("Il phylum e' Dicotiledoni\n");
-                i++;
-                }
-                else if (strcmp(Classe, "Monocotiledoni")==0)
-                {
-                printf("Il phylum e' Monocotiledoni\n");
-                i++;
-                }
-                }
+            }
+            else if (strcmp(Phylum, "Viridiplantae")==0)
+            {
+            printf("Il Phylum e' Viridiplantae\n");
+            i++;
             }
             }
         }
