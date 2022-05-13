@@ -72,6 +72,22 @@ while (i<1)
             {
             printf("Il regno e' Bacteria\n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli un phylum tra: \n 1) Proteobacteria \n 2) Firmicutes \n");
+                scanf("%s", Phylum);
+                if (strcmp(Phylum, "Proteobacteria")==0)
+                {
+                printf("Il phylum e' Proteobacteria\n");
+                i++;
+                }
+                else if (strcmp(Phylum, "Firmicutes")==0)
+                {
+                printf("Il phylum e' Firmicutes \n");
+                i++;
+                }
+                }
+
             }
             else if (strcmp(Regno, "Archaea")==0)
             {
