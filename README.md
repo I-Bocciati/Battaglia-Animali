@@ -30,13 +30,13 @@ while (i<1)
             while (i<3)
                 {
                 printf("Scegli una classe tra: \n 1) Magnoliopsida \n 2) Liliopsida \n");
-                scanf("%s", Phylum);
-                if (strcmp(Phylum, "Magnoliopsida")==0)
+                scanf("%s", Classe);
+                if (strcmp(Classe, "Magnoliopsida")==0)
                 {
                 printf("La Classe e' Magnoliopsida\n");
                 i++;
                 }
-                else if (strcmp(Phylum, "Liliopsida")==0)
+                else if (strcmp(Classe, "Liliopsida")==0)
                 {
                 printf("La Classe e' Liliopsida\n");
                 i++;
@@ -50,13 +50,13 @@ while (i<1)
             while (i<3)
                 {
                 printf("Scegli una classe tra: \n 1)Floridaphyceae \n 2)Bangiophyceae  \n");
-                scanf("%s", Phylum);
-                if (strcmp(Phylum, "Floridaphyceae")==0)
+                scanf("%s", Classe);
+                if (strcmp(Classe, "Floridaphyceae")==0)
                 {
                 printf("La Classe e' Floridaphyceae\n");
                 i++;
                 }
-                else if (strcmp(Phylum, "Bangiophyceae")==0)
+                else if (strcmp(Classe, "Bangiophyceae")==0)
                 {
                 printf("La Classe e' Bangiophyceae\n");
                 i++;
@@ -77,11 +77,41 @@ while (i<1)
             {
             printf("Il phylum e' Chordata\n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli una classe tra: \n 1) Aves \n 2) Mammalia  \n");
+                scanf("%s", Classe);
+                if (strcmp(Classe, "Aves")==0)
+                {
+                printf("La Classe e' Aves\n");
+                i++;
+                }
+                else if (strcmp(Classe, "Mammalia")==0)
+                {
+                printf("La Classe e' Mammalia \n");
+                i++;
+                }
+                }
             }
             else if (strcmp(Phylum, "Arthropoda")==0)
             {
             printf("Il phylum e' Arthropoda \n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli una classe tra: \n 1) Malacostraca \n 2) Insecta  \n");
+                scanf("%s", Classe);
+                if (strcmp(Classe, "Malacostraca")==0)
+                {
+                printf("La Classe e' Malacostraca\n");
+                i++;
+                }
+                else if (strcmp(Classe, "Insecta")==0)
+                {
+                printf("La Classe e' Insecta \n");
+                i++;
+                }
+                }
             }
             }
         }
