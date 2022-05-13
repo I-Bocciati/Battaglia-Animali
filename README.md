@@ -23,6 +23,21 @@ while (i<1)
             {
             printf("Il phylum e' Magnoliophyta\n");
             i++;
+            while (i<3)
+                {
+                printf("Scegli una classe tra: \n 1) Magnoliopsida \n 2) Liliopsida \n");
+                scanf("%s", Phylum);
+                if (strcmp(Phylum, "Magnoliopsida")==0)
+                {
+                printf("Il phylum e' Magnoliopsida\n");
+                i++;
+                }
+                else if (strcmp(Phylum, "Liliopsida")==0)
+                {
+                printf("Il Phylum e' Liliopsida\n");
+                i++;
+                }
+                }
             }
             else if (strcmp(Phylum, "Viridiplantae")==0)
             {
