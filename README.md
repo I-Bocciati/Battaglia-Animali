@@ -9,7 +9,7 @@ int main ()
 
     while (i<1)
     {
-        printf("Scegli un dominio tra: \n 1) Eukaryota \n 2) Archaea \n 3) Eubacteria \n");
+        printf("Scegli un dominio tra: \n 1) Eukaryota \n 2) Prokaryota \n 3) Bacteria \n");
         scanf("%s", Dominio);
         if (strcmp(Dominio,"Eukaryota")==0)
         {
@@ -30,16 +30,16 @@ int main ()
                 i++;
                 }
             }
+        }
+        else if (strcmp(Dominio,"Prokaryota")==0)
+        {
+            printf("Il dominio e' Prokaryota");
+            i++;
 
         }
-        else if (strcmp(Dominio,"Archaea")==0)
+        else if (strcmp(Dominio,"Bacteria")==0)
         {
-            printf("Il dominio e' Archaea");
-            i++;
-        }
-        else if (strcmp(Dominio,"Eubacteria")==0)
-        {
-            printf("Il dominio e' Eubacteria");
+            printf("Il dominio e' Bacteria");
             i++;
         }
     }
