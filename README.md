@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-//Ho aggiunto i doppi "\n" dentro i "printf" per una migliore visualizzazione (Giosus)
+//Raga ho aggiunto 2 ordini alla classe Mammalia
 
 int main ()
 {
-char Regno [30];
+char Regno [10];
 char Phylum [30];
 char Classe [30];
 char Ordine [30];
@@ -93,6 +93,21 @@ while (i<1)
                 {
                 printf("La Classe e' Mammalia \n\n");
                 i++;
+                while (i<4)
+                    {
+                    printf("Scegli un ordine tra: \n 1) Carnivora \n 2) Monotremata \n");
+                    scanf("%s", Ordine);
+                    if (strcmp(Ordine, "Carnivora")==0)
+                    {
+                    printf("L'ordine e' Carnivora\n\n");
+                    i++;
+                    }
+                    else if (strcmp(Ordine, "Monotremata")==0)
+                    {
+                    printf("L'ordine e' Monotremata\n\n");
+                    i++;
+                    }
+                    }
                 }
                 }
             }
