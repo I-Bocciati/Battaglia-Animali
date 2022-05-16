@@ -96,11 +96,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                     {
                     printf("L'ordine e' Carnivora\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Felidae \n 2) Ursidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Felidae")==0)
+                        {
+                        printf("La famiglia e' Felidae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Ursidae")==0)
+                        {
+                        printf("La famiglia e' Ursidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     else if (strcmp(Ordine, "Monotremata")==0)
                     {
                     printf("L'ordine e' Monotremata\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Ornithorhynchidae \n 2) Tachyglossidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Ornithorhynchidae")==0)
+                        {
+                        printf("La famiglia e' Ornithorhynchidae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Tachyglossidae")==0)
+                        {
+                        printf("La famiglia e' Tachyglossidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     }
                 }
@@ -126,11 +156,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                     {
                     printf("L'ordine e' Decapoda\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Coenobitidae \n 2) Majidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Coenobitidae")==0)
+                        {
+                        printf("La famiglia e' Coenobitidae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Majidae")==0)
+                        {
+                        printf("La famiglia e' Majidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     else if (strcmp(Ordine, "Stomatopoda")==0)
                     {
                     printf("L'ordine e' Stomatopoda\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Odontodactylidae \n 2) Gonodactylidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Odontodactylidae")==0)
+                        {
+                        printf("La famiglia e' Odontodactylidae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Gonodactylidae")==0)
+                        {
+                        printf("La famiglia e' Gonodactylidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     }
                 }
@@ -146,11 +206,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                     {
                     printf("L'ordine e' Orthoptera\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Acrididae \n 2) Tettigoniidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Acrididae")==0)
+                        {
+                        printf("La famiglia e' Acrididae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Tettigoniidae")==0)
+                        {
+                        printf("La famiglia e' Tettigoniidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     else if (strcmp(Ordine, "Lepidoptera")==0)
                     {
                     printf("L'ordine e' Lepidoptera\n\n");
                     i++;
+                    while (i<4)
+                        {
+                        printf("Scegli una famiglia tra: \n 1) Pieridae \n 2) Riodinidae \n");
+                        scanf("%s", Famiglia);
+                        if (strcmp(Famiglia, "Pieridae")==0)
+                        {
+                        printf("La famiglia e' Pieridae\n\n");
+                        i++;
+                        }
+                        else if (strcmp(Famiglia, "Riodinidae")==0)
+                        {
+                        printf("La famiglia e' Riodinidae\n\n");
+                        i++;
+                        }
+                        }
                     }
                     }
                 }
