@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//Raga ho fatto tutti gli ordini degli Animalia, mancano quelli delle Plantae
+
 int main ()
 {
 char Regno [10];
@@ -86,6 +88,21 @@ while (i<1)
                 {
                 printf("La Classe e' Aves \n\n");
                 i++;
+                while (i<4)
+                    {
+                    printf("Scegli un ordine tra: \n 1) Accipitriformes \n 2) Columbiformes \n");
+                    scanf("%s", Ordine);
+                    if (strcmp(Ordine, "Accipitriformes")==0)
+                    {
+                    printf("L'ordine e' Accipitriformes\n\n");
+                    i++;
+                    }
+                    else if (strcmp(Ordine, "Columbiformes")==0)
+                    {
+                    printf("L'ordine e' Columbiformes\n\n");
+                    i++;
+                    }
+                    }
                 }
                 else if (strcmp(Classe, "Mammalia")==0)
                 {
@@ -121,11 +138,41 @@ while (i<1)
                 {
                 printf("La Classe e' Malacostraca \n\n");
                 i++;
+                while (i<4)
+                    {
+                    printf("Scegli un ordine tra: \n 1) Decapoda \n 2) Stomatopoda \n");
+                    scanf("%s", Ordine);
+                    if (strcmp(Ordine, "Decapoda")==0)
+                    {
+                    printf("L'ordine e' Decapoda\n\n");
+                    i++;
+                    }
+                    else if (strcmp(Ordine, "Stomatopoda")==0)
+                    {
+                    printf("L'ordine e' Stomatopoda\n\n");
+                    i++;
+                    }
+                    }
                 }
                 else if (strcmp(Classe, "Insecta")==0)
                 {
                 printf("La Classe e' Insecta \n\n");
                 i++;
+                while (i<4)
+                    {
+                    printf("Scegli un ordine tra: \n 1) Orthoptera \n 2) Lepidoptera \n");
+                    scanf("%s", Ordine);
+                    if (strcmp(Ordine, "Orthoptera")==0)
+                    {
+                    printf("L'ordine e' Orthoptera\n\n");
+                    i++;
+                    }
+                    else if (strcmp(Ordine, "Lepidoptera")==0)
+                    {
+                    printf("L'ordine e' Lepidoptera\n\n");
+                    i++;
+                    }
+                    }
                 }
                 }
             }
