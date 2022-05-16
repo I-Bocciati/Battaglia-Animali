@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-//Raga ho aggiunto 2 ordini alla classe Mammalia
-
 int main ()
 {
 char Regno [10];
