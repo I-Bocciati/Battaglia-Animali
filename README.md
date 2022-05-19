@@ -4,7 +4,7 @@
 /*
 To do:
 - Aggiungere errore ed istruzione nel caso il cui ci sia un errore di spelling!
-- Aggiungere Genere
+- Aggiungere Generi degli Arthropoda
 - Aggiungere Specie
 - Aggiungere descrizione per ogni animale (ricordiamoci di mettere il Dodo)
 - Implementazione sottofunzioni
@@ -48,17 +48,47 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                     i++;
                     while (i<4)
                         {
-                        printf("Scegli una famiglia tra: \n 1) Sagittariidae \n 2) Pandionidae \n");
+                        printf("Scegli una famiglia tra: \n 1) Cathartidae \n 2) Accipitridae \n");
                         scanf("%s", Famiglia);
-                        if (strcmp(Famiglia, "Sagittariidae")==0)
+                        if (strcmp(Famiglia, "Cathartidae")==0)
                         {
-                        printf("La famiglia e' Sagittariidae\n\n");
+                        printf("La famiglia e' Cathartidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Gymnogyps \n 2) Vultur \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Gymnogyps")==0)
+                            {
+                            printf("Il genere e' Gymnogyps\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Vultur")==0)
+                            {
+                            printf("Il Genere e' Vultur\n\n");
+                            i++;
+                            }
+                            }
                         }
-                        else if (strcmp(Famiglia, "Pandionidae")==0)
+                        else if (strcmp(Famiglia, "Accipitridae")==0)
                         {
-                        printf("La famiglia e' Pandionidae\n\n");
+                        printf("La famiglia e' Accipitridae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Aquila \n 2) Ictinaetus \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Aquila")==0)
+                            {
+                            printf("Il genere e' Aquila\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Ictinaetus")==0)
+                            {
+                            printf("Il Genere e' Ictinaetus\n\n");
+                            i++;
+                            }
+                            }
                         }
                         }
                     }
@@ -74,11 +104,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                         {
                         printf("La famiglia e' Raphines\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Raphus \n 2) Pezophaps \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Raphus")==0)
+                            {
+                            printf("Il genere e' Raphus\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Pezophaps")==0)
+                            {
+                            printf("Il Genere e' Pezophaps\n\n");
+                            i++;
+                            }
+                            }
                         }
                         else if (strcmp(Famiglia, "Columbidae")==0)
                         {
                         printf("La famiglia e' Columbidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Geotrygon \n 2) Claravis \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Geotrygon")==0)
+                            {
+                            printf("Il genere e' Geotrygon\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Claravis")==0)
+                            {
+                            printf("Il Genere e' Claravis\n\n");
+                            i++;
+                            }
+                            }
                         }
                         }
                     }
@@ -104,11 +164,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                         {
                         printf("La famiglia e' Felidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Panthera \n 2) Neofelis \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Panthera")==0)
+                            {
+                            printf("Il genere e' Panthera\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Neofelis")==0)
+                            {
+                            printf("Il Genere e' Neofelis\n\n");
+                            i++;
+                            }
+                            }
                         }
                         else if (strcmp(Famiglia, "Ursidae")==0)
                         {
                         printf("La famiglia e' Ursidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Ursus \n 2) Ailuropoda \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Ursus")==0)
+                            {
+                            printf("Il genere e' Ursus\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Ailuropoda")==0)
+                            {
+                            printf("Il Genere e' Ailuropoda\n\n");
+                            i++;
+                            }
+                            }
                         }
                         }
                     }
@@ -124,11 +214,41 @@ printf("Benvenuto nel catalogo degli animali!\n\nDi seguito potrai trovare un an
                         {
                         printf("La famiglia e' Ornithorhynchidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Ornithorhynchus \n 2) Obdurodon \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Ornithorhynchus")==0)
+                            {
+                            printf("Il genere e' Ornithorhynchus\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Obdurodon")==0)
+                            {
+                            printf("Il Genere e' Obdurodon\n\n");
+                            i++;
+                            }
+                            }
                         }
                         else if (strcmp(Famiglia, "Tachyglossidae")==0)
                         {
                         printf("La famiglia e' Tachyglossidae\n\n");
                         i++;
+                        while (i<5)
+                            {
+                            printf("Scegli un genere tra: \n 1) Zaglossus \n 2) Tachyglossus \n");
+                            scanf("%s", Genere);
+                            if (strcmp(Genere, "Zaglossus")==0)
+                            {
+                            printf("Il genere e' Zaglossus\n\n");
+                            i++;
+                            }
+                            else if (strcmp(Genere, "Tachyglossus")==0)
+                            {
+                            printf("Il Genere e' Tachyglossus\n\n");
+                            i++;
+                            }
+                            }
                         }
                         }
                     }
