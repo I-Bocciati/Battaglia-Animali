@@ -25,7 +25,7 @@ int main ()
 {
     stringa Ordine, Famiglia, Genere, Specie;
     int Animale1, Animale2;
-    printf("Benvenuto nella battaglia degli animali!\n\nDi seguito potrai scegliere due animali appartenenti al regno Animalia!\nArriverai a trovarli passando per tutta la tassonomia.. \nDopo ti diremo chi dei due che hai scelto vincerebbe un combattimento. Iniziamo!\n\n");
+    printf("Benvenuto nella battaglia degli animali!\n\nDi seguito potrai scegliere due animali appartenenti alla classe Mammalia!\nArriverai a trovarli passando per tutta la tassonomia.. \nDopo ti diremo chi dei due che hai scelto vincerebbe un combattimento. Iniziamo!\n\n");
 
     CercaAnimale (Ordine, Famiglia, Genere, Specie, &Animale1);
     CercaAnimale (Ordine, Famiglia, Genere, Specie, &Animale2);
@@ -180,7 +180,7 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                             {
                             printf("Il genere e' Ornithorhynchus\n\n");
                             i++;
-                            printf("L'unica specie di Ornithorhynchus e' Anatinus\n L'animale e' l'ornitorinco");
+                            printf("L'unica specie di Ornithorhynchus e' Anatinus\n L'animale e' l'ornitorinco\n");
                             *Animale=6;
                             }
                             else if (strcmp(Genere, "Obdurodon")==0)
@@ -281,49 +281,49 @@ void ConfrontaAnimali (int Animale1, int Animale2) {
 void MostraAnimale (int Animale){
     switch (Animale){
         case 14:
-            printf ("L'animale piu' forte e' il Leone");
+            printf ("L'animale piu' forte e' il leone");
             break;
         case 13:
-            printf ("L'animale piu' forte e' il Tigre");
+            printf ("L'animale piu' forte e' la tigre");
             break;
         case 12:
-            printf ("L'animale piu' forte e' il Leopardo nebuloso del Borneo");
+            printf ("L'animale piu' forte e' il leopardo nebuloso del Borneo");
             break;
         case 11:
-            printf ("L'animale piu' forte e' il Leopardo nebuloso");
+            printf ("L'animale piu' forte e' il leopardo nebuloso");
             break;
         case 10:
-            printf ("L'animale piu' forte e' il Orso bruno americano");
+            printf ("L'animale piu' forte e' l'orso bruno americano");
             break;
         case 9:
-            printf ("L'animale piu' forte e' il Orso polare");
+            printf ("L'animale piu' forte e' l'orso polare");
             break;
         case 8:
-            printf ("L'animale piu' forte e' il Panda maggiore");
+            printf ("L'animale piu' forte e' il anda maggiore");
             break;
         case 7:
-            printf ("L'animale piu' forte e' il Panda gigante pigmeo (estinto");
+            printf ("L'animale piu' forte e' il panda gigante pigmeo (estinto");
             break;
         case 6:
-            printf ("L'animale piu' forte e' il Ornitorinco");
+            printf ("L'animale piu' forte e' l'ornitorinco");
             break;
         case 5:
-            printf ("L'animale piu' forte e' il Ornitorinco dentato dell'Australia del Nord (estinto)");
+            printf ("L'animale piu' forte e' l'ornitorinco dentato dell'Australia del Nord (estinto)");
             break;
         case 4:
-            printf ("L'animale piu' forte e' il Ornitorinco dentato dell'Australia del Sud (estinto");
+            printf ("L'animale piu' forte e' l'ornitorinco dentato dell'Australia del Sud (estinto");
             break;
         case 3:
-            printf ("L'animale piu' forte e' il Echidna dal becco lungo occidentale");
+            printf ("L'animale piu' forte e' l'echidna dal becco lungo occidentale");
             break;
         case 2:
-            printf ("L'animale piu' forte e' il Echidna dal becco lungo orientale");
+            printf ("L'animale piu' forte e' l'echidna dal becco lungo orientale");
             break;
         case 1:
-            printf ("L'animale piu' forte e' il Echidna istrice");
+            printf ("L'animale piu' forte e' l'echidna istrice");
             break;
         case 0:
-            printf ("L'animale piu' forte e' il Echidna della Tasmania");
+            printf ("L'animale piu' forte e' l'echidna della Tasmania");
             break;
     }
 }
