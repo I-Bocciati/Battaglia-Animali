@@ -1,8 +1,3 @@
-/*
-To do:
-- Aggiungere errore ed istruzione nel caso il cui ci sia un errore di spelling!
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -77,6 +72,10 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=13;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
                             else if (strcmp(Genere, "Neofelis")==0)
@@ -99,8 +98,16 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=11;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
+                            else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                             }
                         }
                         else if (strcmp(Famiglia, "Ursidae")==0)
@@ -131,6 +138,10 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=9;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
                             else if (strcmp(Genere, "Ailuropoda")==0)
@@ -153,10 +164,22 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=7;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
+                            else
+                                {
+                                    printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                }
                             }
                         }
+                        else
+                            {
+                                printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                            }
                         }
                     }
                     else if (strcmp(Ordine, "Monotremata")==0)
@@ -202,8 +225,16 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=4;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
+                            else
+                                {
+                                    printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                }
                             }
                         }
                         else if (strcmp(Famiglia, "Tachyglossidae")==0)
@@ -234,6 +265,10 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=2;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
                             else if (strcmp(Genere, "Tachyglossus")==0)
@@ -256,12 +291,28 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                                 i++;
                                 *Animale=0;
                                 }
+                                else
+                                    {
+                                        printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                    }
                                 }
                             }
+                            else
+                                {
+                                    printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                                }
                             }
                         }
+                        else
+                            {
+                                printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                            }
                         }
                     }
+                    else
+                        {
+                            printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
+                        }
                     }
 
 }
