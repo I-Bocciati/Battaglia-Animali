@@ -325,6 +325,9 @@ void ConfrontaAnimali (int Animale1, int Animale2) {
     else if (Animale2>Animale1) {
         MostraAnimale (Animale2);
         }
+    else if (Animale2=Animale1) {
+        printf ("Ahahahah simpatico, scegli animali diversi la prossima volta!");
+        }
 
 }
 
