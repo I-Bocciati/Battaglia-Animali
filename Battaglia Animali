@@ -5,15 +5,10 @@
 typedef char stringa [dim];
 
 
-void stampaListaAnimali (int n){
-for(int i=0;i<n;i++){
-printf("\n\nGrazie per aver giocato ma sappi che ci sono altri animali di cui puoi scoprire la forza. Continua a giocare! Di seguito trovi la lista completa:\n-Leone\n-Tigre\n-Leopardi\n-Orsi\n-Panda\n-Ornitorinchi\n-Echidne", i+1);
-}
-}
-
 void CercaAnimale (stringa, stringa, stringa, stringa, int*);
 void ConfrontaAnimali (int, int);
 void MostraAnimale (int);
+void stampaListaAnimali (int n);
 
 int main ()
 {
@@ -379,4 +374,10 @@ void MostraAnimale (int Animale){
             printf ("\nL'animale piu' forte e' il Echidna della Tasmania");
             break;
     }
+}
+
+void stampaListaAnimali (int n){
+for(int i=0;i<n;i++){
+printf("\n\nGrazie per aver giocato ma sappi che ci sono altri animali di cui puoi scoprire la forza. Continua a giocare! Di seguito trovi la lista completa:\n-Leone\n-Tigre\n-Leopardi\n-Orsi\n-Panda\n-Ornitorinchi\n-Echidne", i+1);
+}
 }
