@@ -8,7 +8,7 @@ typedef char stringa [dim];
 void CercaAnimale (stringa, stringa, stringa, stringa, int*);
 void ConfrontaAnimali (int, int);
 void MostraAnimale (int);
-void stampaListaAnimali (int n);
+void stampaListaAnimali (int);
 
 int main ()
 {
