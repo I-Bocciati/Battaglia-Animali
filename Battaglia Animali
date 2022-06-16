@@ -12,8 +12,8 @@ printf("\n\nGrazie per aver giocato ma sappi che ci sono altri animali di cui pu
 }
 
 void CercaAnimale (stringa, stringa, stringa, stringa, int*);
-void MostraAnimale (int);
 void ConfrontaAnimali (int, int);
+void MostraAnimale (int);
 
 int main ()
 {
