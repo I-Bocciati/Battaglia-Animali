@@ -2,13 +2,18 @@
 #include <string.h>
 
 #define dim 30
+
 typedef char stringa [dim];
 
+void stampaListaAnimali (int n){
+for(int i=0;i<n;i++){
+printf("\n\nGrazie per aver giocato ma sappi che ci sono altri animali di cui puoi scoprire la forza. Continua a giocare! Di seguito trovi la lista completa:\n-Leone\n-Tigre\n-Leopardi\n-Orsi\n-Panda\n-Ornitorinchi\n-Echidne", i+1);
+}
+}
 
 void CercaAnimale (stringa, stringa, stringa, stringa, int*);
-void ConfrontaAnimali (int, int);
 void MostraAnimale (int);
-void stampaListaAnimali (int);
+void ConfrontaAnimali (int, int);
 
 int main ()
 {
@@ -309,7 +314,6 @@ void CercaAnimale (stringa Ordine, stringa Famiglia, stringa Genere, stringa Spe
                             printf ("[-] Hai sbagliato lo spelling, riprova rispettando le lettere e le maiuscole!\n");
                         }
                     }
-
 }
 
 void ConfrontaAnimali (int Animale1, int Animale2) {
@@ -320,9 +324,6 @@ void ConfrontaAnimali (int Animale1, int Animale2) {
     else if (Animale2>Animale1) {
         MostraAnimale (Animale2);
         }
-    else if (Animale2=Animale1) {
-        printf ("Ahahahah simpatico, scegli animali diversi la prossima volta!");
-        }
 
 }
 
@@ -332,7 +333,7 @@ void MostraAnimale (int Animale){
             printf ("\nL'animale piu' forte e' il Leone");
             break;
         case 13:
-            printf ("\nL'animale piu' forte e' il Tigre");
+            printf ("\nL'animale piu' forte e' la Tigre");
             break;
         case 12:
             printf ("\nL'animale piu' forte e' il Leopardo nebuloso del Borneo");
@@ -341,10 +342,10 @@ void MostraAnimale (int Animale){
             printf ("\nL'animale piu' forte e' il Leopardo nebuloso");
             break;
         case 10:
-            printf ("\nL'animale piu' forte e' il Orso bruno americano");
+            printf ("\nL'animale piu' forte e' l'Orso bruno americano");
             break;
         case 9:
-            printf ("\nL'animale piu' forte e' il Orso polare");
+            printf ("\nL'animale piu' forte e' l'Orso polare");
             break;
         case 8:
             printf ("\nL'animale piu' forte e' il Panda maggiore");
@@ -353,31 +354,25 @@ void MostraAnimale (int Animale){
             printf ("L'animale piu' forte e' il Panda gigante pigmeo (estinto");
             break;
         case 6:
-            printf ("\nL'animale piu' forte e' il Ornitorinco");
+            printf ("\nL'animale piu' forte e' l'Ornitorinco");
             break;
         case 5:
-            printf ("\nL'animale piu' forte e' il Ornitorinco dentato dell'Australia del Nord (estinto)");
+            printf ("\nL'animale piu' forte e' l'Ornitorinco dentato dell'Australia del Nord (estinto)");
             break;
         case 4:
-            printf ("\nL'animale piu' forte e' il Ornitorinco dentato dell'Australia del Sud (estinto");
+            printf ("\nL'animale piu' forte e' l'Ornitorinco dentato dell'Australia del Sud (estinto");
             break;
         case 3:
-            printf ("\nL'animale piu' forte e' il Echidna dal becco lungo occidentale");
+            printf ("\nL'animale piu' forte e' l'Echidna dal becco lungo occidentale");
             break;
         case 2:
-            printf ("\nL'animale piu' forte e' il Echidna dal becco lungo orientale");
+            printf ("\nL'animale piu' forte e' l'Echidna dal becco lungo orientale");
             break;
         case 1:
-            printf ("\nL'animale piu' forte e' il Echidna istrice");
+            printf ("\nL'animale piu' forte e' l'Echidna istrice");
             break;
         case 0:
-            printf ("\nL'animale piu' forte e' il Echidna della Tasmania");
+            printf ("\nL'animale piu' forte e' l'Echidna della Tasmania");
             break;
     }
-}
-
-void stampaListaAnimali (int n){
-for(int i=0;i<n;i++){
-printf("\n\nGrazie per aver giocato ma sappi che ci sono altri animali di cui puoi scoprire la forza. Continua a giocare! Di seguito trovi la lista completa:\n-Leone\n-Tigre\n-Leopardi\n-Orsi\n-Panda\n-Ornitorinchi\n-Echidne", i+1);
-}
 }
